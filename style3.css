@@ -1,0 +1,56 @@
+/* Estilo da API */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #3d3d3d;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 20px 0;
+    color: #7B2CBF; 
+}
+
+.container {
+    background: #242424;
+    box-shadow: 0 2px 300px #7B2CBF;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+button#getJoke {
+    box-shadow: 0px 0px 10px #7B2CBF;
+    transform: scale(1.05);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 200;
+    background-color: #7B2CBF;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button#getJoke:hover {
+    background-color: #5600a1;
+
+}
+
+p#joke {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 20px;
+    font-style: italic;
+    line-height: 1.6;
+}
